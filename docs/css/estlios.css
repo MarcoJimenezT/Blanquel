@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #000;
+}
+
+header .menu {
+  margin: 0;
+  background-color: #0abcf9;
+  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0 40px;
+}
+
+header .menu .logo {
+  margin-top: 13px;
+}
+
+header .menu .logo img {
+  width: 110px;
+}
+
+header .menu .nav_menu {
+  color: #fff;
+}
+
+header .menu .nav_menu .nav_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .menu .nav_menu .nav_items .nav_item {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header .menu .nav_menu .nav_items .nav_item a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+header .menu .nav_menu .nav_items .nav_item a:hover {
+  color: #fca311;
+}
+
+header .style-header {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/header-image.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: cover;
+  position: relative;
+}
+
+header .style-header .contenedor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+header .style-header .contenedor .titulo-header {
+  color: #fff;
+  font-weight: 300;
+  font-size: 40px;
+  padding: 0;
+}
+
+header .style-header .contenedor .subtitulo-header {
+  color: #fff;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+header .style-header .contenedor .icono {
+  margin-top: 20px;
+}
+
+.container-main {
+  background: #caccd1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-main .main-item {
+  background: #ffff;
+  width: 100%;
+}
+
+.container-main .main-item .title-item {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  color: #000;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container-main .main-item .text-item {
+  text-align: justify;
+  padding: 20px;
+}
+
+.container-main .main-item .boton {
+  margin: 20px;
+}
+/*# sourceMappingURL=estlios.css.map */
