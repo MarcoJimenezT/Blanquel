@@ -107,8 +107,15 @@ header .style-header .contenedor .icono {
   margin-top: 20px;
 }
 
+.verde {
+  background: #b8daba;
+}
+
+.blanco {
+  background: #f2f2f2;
+}
+
 .container-main {
-  background: #caccd1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,12 +126,20 @@ header .style-header .contenedor .icono {
           justify-content: center;
 }
 
-.container-main .main-item {
-  background: #ffff;
+.container-main .container-item {
   width: 100%;
 }
 
-.container-main .main-item .title-item {
+.container-main .container-item .main-item {
+  margin: 0 auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.container-main .container-item .main-item .title-item {
   margin: 0;
   padding: 10px 0;
   text-align: center;
@@ -132,12 +147,50 @@ header .style-header .contenedor .icono {
   font-family: 'Nunito', sans-serif;
 }
 
-.container-main .main-item .text-item {
+.container-main .container-item .main-item .text-item {
   text-align: justify;
   padding: 20px;
 }
 
-.container-main .main-item .boton {
+.container-main .container-item .main-item .boton {
   margin: 20px;
+}
+
+.container-main .container-item .main-item .imagen-aux {
+  margin: 20px;
+}
+
+.container-main .container-item .main-item .imagen-aux img {
+  width: 450px;
+}
+
+.redes-sociales {
+  position: fixed;
+  bottom: 200px;
+  left: -155px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.redes-sociales a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.redes-sociales a:hover {
+  color: #fff;
+}
+
+.redes-sociales .facebook {
+  background: #1877f2;
+}
+
+.redes-sociales .whatsapp {
+  background: #4aae20;
+}
+
+.redes-sociales .instagram {
+  background: #c13584;
 }
 /*# sourceMappingURL=estlios.css.map */
