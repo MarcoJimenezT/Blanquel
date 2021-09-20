@@ -107,12 +107,20 @@ header .style-header .contenedor .icono {
   margin-top: 20px;
 }
 
-.verde {
-  background: #b8daba;
+.peace {
+  background: #9AD5CA;
 }
 
 .blanco {
   background: #f2f2f2;
+}
+
+.azul {
+  background: #3C91E6;
+}
+
+.azul-light {
+  background: #034078;
 }
 
 .container-main {
@@ -164,10 +172,63 @@ header .style-header .contenedor .icono {
   width: 450px;
 }
 
+.container-main .container-item .main-item .nav-blank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: row;
+      -ms-flex-pack: row;
+          justify-content: row;
+  margin: 0 auto 40px;
+}
+
+.container-main .container-item .main-item .nav-blank .nav-blank-item {
+  margin: 10px;
+  list-style: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 300;
+  border-radius: 8px;
+}
+
+.container-main .container-item .main-item .contenedor-comb {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+.container-main .container-item .main-item .contenedor-comb img {
+  width: 220px;
+  margin: auto;
+}
+
+.container-main .container-item .main-item .contenedor-comb .list-items {
+  margin-top: 35px;
+  line-height: 30px;
+  list-style: none;
+  text-align: left;
+  font-weight: 500;
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.whatsapp {
+  background: #4aae20;
+}
+
+.instagram {
+  background: #c13584;
+}
+
 .redes-sociales {
   position: fixed;
   bottom: 200px;
-  left: -155px;
+  left: -100px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -182,15 +243,21 @@ header .style-header .contenedor .icono {
   color: #fff;
 }
 
-.redes-sociales .facebook {
-  background: #1877f2;
+.charlemos {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
-.redes-sociales .whatsapp {
-  background: #4aae20;
+.charlemos a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 30px;
+  border-radius: 30px;
 }
 
-.redes-sociales .instagram {
-  background: #c13584;
+.charlemos a:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=estlios.css.map */
