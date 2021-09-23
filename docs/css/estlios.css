@@ -1,6 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.peace {
+  background: #5d46e2;
+}
+
+.blanco {
+  background: #f2f2f2;
+}
+
+.t-blanco {
+  color: #ffffff;
+}
+
+.azul {
+  background: #3C91E6;
+}
+
+.azul-light {
+  background: #034078;
+}
+
+.gris {
+  background: #252525;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -120,8 +144,9 @@ header .style-header .contenedor {
 }
 
 header .style-header .contenedor .titulo-header {
+  margin-top: 50px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 40px;
   padding: 0;
 }
@@ -134,26 +159,6 @@ header .style-header .contenedor .subtitulo-header {
 
 header .style-header .contenedor .icono {
   margin-top: 20px;
-}
-
-.peace {
-  background: #5d46e2;
-}
-
-.blanco {
-  background: #f2f2f2;
-}
-
-.t-blanco {
-  color: #ffffff;
-}
-
-.azul {
-  background: #3C91E6;
-}
-
-.azul-light {
-  background: #034078;
 }
 
 .container-main {
@@ -182,6 +187,21 @@ header .style-header .contenedor .icono {
           justify-content: center;
 }
 
+.container-main .container-item .main-item .ortodoncia {
+  text-align: center;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .container-main .container-item .main-item .invisaling {
   text-align: center;
   width: 500px;
@@ -204,6 +224,10 @@ header .style-header .contenedor .icono {
   line-height: 200px;
   word-wrap: break-word;
   text-align: center;
+}
+
+.container-main .container-item .main-item .tittle-item-special-blank {
+  width: 300px;
 }
 
 .container-main .container-item .main-item .title-item {
@@ -268,6 +292,124 @@ header .style-header .contenedor .icono {
   list-style: none;
   text-align: left;
   font-weight: 500;
+}
+
+.container-covid {
+  background: url("../images/covid-19.jpg");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.container-covid::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container-covid .covid-content {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-covid .covid-content .covid-tittle {
+  padding: 50px 0 0 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+}
+
+.container-covid .covid-content .covid-text {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container-covid .covid-content .covid-text .image-aux img {
+  width: 200px;
+}
+
+.container-covid .covid-content .covid-text ul {
+  padding-top: 20px;
+  list-style: none;
+  font-weight: 300;
+}
+
+.about-us {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.about-us .about-tittle {
+  padding-top: 30px;
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  text-align: center;
+}
+
+.about-us .about-text {
+  text-align: center;
+}
+
+.content-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-about-us .card {
+  background: #f2f2f2;
+  color: #000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.content-about-us .card:hover {
+  background: #0072BB;
+  color: #fff;
+}
+
+.pie {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.pie .image-aux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pie .image-aux img {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.pie .footer-text {
+  background: #000;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+.pie .footer-text .text-item {
+  margin: 0 auto;
+  width: 80%;
+  color: #fff;
 }
 
 .facebook {
