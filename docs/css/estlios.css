@@ -1,31 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-.peace {
+body .han {
+  background: #2D93AD;
+}
+
+body .peace {
   background: #5d46e2;
 }
 
-.blanco {
+body .blanco {
   background: #f2f2f2;
 }
 
-.t-blanco {
+body .t-blanco {
   color: #ffffff;
 }
 
-.azul {
+body .azul {
   background: #3C91E6;
 }
 
-.azul-light {
+body .azul-light {
   background: #034078;
 }
 
-.gris {
+body .gris {
   background: #252525;
-}
-
-body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -48,7 +49,7 @@ header .menu .skew {
   width: 420px;
   height: 150px;
   position: absolute;
-  z-index: 4;
+  z-index: 15;
   background: #000;
   top: 0;
   left: -35px;
@@ -61,13 +62,13 @@ header .menu .logo img {
   position: absolute;
   margin-top: 15px;
   margin-left: 25px;
-  z-index: 5;
+  z-index: 17;
   width: 300px;
 }
 
 header .menu .nav_menu {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   right: 0;
   background: #fff;
   color: #000;
@@ -116,10 +117,10 @@ header .menu .nav_menu .nav_items .nav_item:hover {
 header .style-header {
   margin: 0;
   padding: 0;
-  background-image: url("../images/header-image.jpg");
-  height: 100vh;
+  background-image: url("../images/portada.jpg");
+  height: 120vh;
   background-attachment: fixed;
-  background-position: cover;
+  background-position: 0 center;
   position: relative;
 }
 
@@ -296,7 +297,7 @@ header .style-header .contenedor .icono {
 
 .container-covid {
   background: url("../images/covid-19.jpg");
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -315,7 +316,7 @@ header .style-header .contenedor .icono {
 
 .container-covid .covid-content {
   position: relative;
-  z-index: 2;
+  z-index: 5;
   width: 80%;
   margin: 0 auto;
 }
@@ -361,6 +362,16 @@ header .style-header .contenedor .icono {
   text-align: center;
 }
 
+.video-about-us {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .content-about-us {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,6 +388,12 @@ header .style-header .contenedor .icono {
 .content-about-us .card:hover {
   background: #0072BB;
   color: #fff;
+}
+
+.content-about-us .card .card-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .pie {
@@ -458,5 +475,46 @@ header .style-header .contenedor .icono {
 
 .charlemos a:hover {
   color: #fff;
+}
+
+#carrousel-tarjetas {
+  position: relative;
+}
+
+#carrousel-tarjetas .container-carro {
+  max-width: 80%;
+  min-width: 80%;
+}
+
+#carrousel-tarjetas .card {
+  -webkit-transition: .6s;
+  transition: .6s;
+  margin: 5px 10px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+#carrousel-tarjetas .card:hover {
+  background: #000;
+}
+
+#carrousel-tarjetas .card .icono {
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#carrousel-tarjetas .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=estlios.css.map */

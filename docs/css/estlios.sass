@@ -2,20 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
 //COlORES
-.peace
-    background: #5d46e2
-.blanco
-    background: #f2f2f2
-.t-blanco
-    color: #ffffff
-.azul
-    background: #3C91E6
-.azul-light
-    background: #034078
-.gris
-    background: #252525
 body
-    font-family: 'Roboto', sans-serif;
+    .han
+        background: #2D93AD
+    .peace
+        background: #5d46e2
+    .blanco
+        background: #f2f2f2
+    .t-blanco
+        color: #ffffff
+    .azul
+        background: #3C91E6
+    .azul-light
+        background: #034078
+    .gris
+        background: #252525
+        font-family: 'Roboto', sans-serif;
 header
     .menu
         margin: 0
@@ -28,7 +30,7 @@ header
             width: 420px; 
             height: 150px;
             position: absolute
-            z-index: 4
+            z-index: 15
             background: #000
             top: 0
             left: -35px
@@ -39,11 +41,11 @@ header
                 position: absolute
                 margin-top: 15px
                 margin-left: 25px
-                z-index: 5
+                z-index: 17
                 width: 300px        
         .nav_menu
             position: absolute
-            z-index: 2
+            z-index: 10
             right: 0
             background: #fff
             color: #000
@@ -76,10 +78,10 @@ header
     .style-header
         margin: 0
         padding: 0
-        background-image: url('../images/header-image.jpg')
-        height: 100vh
+        background-image: url('../images/portada.jpg')
+        height: 120vh
         background-attachment: fixed
-        background-position: cover
+        background-position: 0 center
         position: relative
         .contenedor
             position: absolute
@@ -176,10 +178,10 @@ header
                     list-style: none
                     text-align: left
                     font-weight: 500
-//COVID-18
+//COVID-19
 .container-covid
     background: url('../images/covid-19.jpg')
-    height: 100vh
+    height: 110vh
     width: 100%
     background-attachment: fixed
     background-position: center
@@ -194,7 +196,7 @@ header
         background: rgba(0, 0, 0, 0.5)
     .covid-content
         position: relative
-        z-index: 2
+        z-index: 5
         width: 80%
         margin: 0 auto
         .covid-tittle
@@ -226,6 +228,10 @@ header
         text-align: center
     .about-text
         text-align: center
+.video-about-us
+    margin: 0 auto
+    display: flex
+    justify-content: center
 .content-about-us
     display: flex
     .card
@@ -235,6 +241,10 @@ header
         &:hover
             background: #0072BB
             color: #fff
+        .card-info
+            list-style: none
+            margin: 0
+            padding: 0
 //Pie de pagina
 .pie
     width: 100%
@@ -286,7 +296,27 @@ header
         border-radius: 30px
         &:hover
             color: #fff
-
+//CAROUSEL
+#carrousel-tarjetas
+    position: relative
+    .container-carro
+       max-width: 80%
+       min-width: 80%
+    .card
+        transition: .6s
+        margin: 5px 10px
+        min-height: 300px
+        max-height: 300px        
+        &:hover
+            background: #000
+        .icono
+            font-size: 30px
+            padding-top: 5px
+        .card-body
+            display: flex
+            flex-direction: column
+            align-content: space-between
+            justify-content: space-between
 
 
 
