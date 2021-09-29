@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
 //COlORES
 body
+    &::-webkit-scrollbar
+        width: 7px
+    &::-webkit-scrollbar-track
+        background-color: #000
+    &::-webkit-scrollbar-thumb
+            border-radius: 5px
+            background-color: #5d46e2
     .han
         background: #2D93AD
     .peace
@@ -17,7 +24,7 @@ body
         background: #034078
     .gris
         background: #252525
-        font-family: 'Roboto', sans-serif;
+        // font-family: 'Roboto', sans-serif
 header
     .menu
         margin: 0
@@ -95,10 +102,11 @@ header
             flex-direction: column
             text-align: center
             .titulo-header
+                font-family: 'Bebas Neue'
                 margin-top: 50px    
                 color: #fff
                 font-weight: 400
-                font-size: 40px
+                font-size: 50px
                 padding: 0
             .subtitulo-header
                 color: #fff
@@ -121,7 +129,7 @@ header
             justify-content: center
             .ortodoncia
                 text-align: center
-                width: 500px
+                width: 510px
                 display: flex
                 flex-direction: column
                 justify-content: space-between
@@ -140,11 +148,16 @@ header
                 text-align: center
             .tittle-item-special-blank
                 width: 300px
-            .title-item
+                font-size: 192px
+            .title-item, .subtitle-item, .text-t-item
                 margin: 0
                 padding: 10px 0
                 text-align: center
                 font-family: 'Bebas Neue'
+            .subtitle-item
+                font-size: 25px
+            .text-t-item
+                font-size: 20px
             .text-item
                 text-align: justify
             .boton
@@ -156,7 +169,7 @@ header
             .nav-blank //SECCION DE BLANQUEAMIENTO
                 display: flex
                 justify-content: row
-                margin: 0 auto 40px
+                margin: 0 auto 10px
                 .nav-blank-item
                     margin: 10px
                     list-style: none
@@ -197,27 +210,33 @@ header
     .covid-content
         position: relative
         z-index: 5
-        width: 80%
         margin: 0 auto
+        width: 90%
         .covid-tittle
             padding: 50px 0 0 0
             color: #fff
             text-align: center
             font-family: 'Bebas Neue'
-            font-size: 80px
+            font-size: 60px
         .covid-text
             font-size: 20px
             color: #fff
             text-align: center
             font-weight: 500
+        .covid-text-s
+            margin-top: 50px
             .image-aux
                 img
-                    width: 200px
+                    width: 250px
             ul
-                padding-top: 20px
+                padding-top: 40px
                 list-style: none
-                font-weight: 300
+                font-weight: 400
+                text-align: justify
+                line-height: 40px
 //About-us
+.nosotros
+    background: url('../images/dark.png')
 .about-us
     color: #fff
     margin: 0 auto
@@ -245,11 +264,35 @@ header
             list-style: none
             margin: 0
             padding: 0
+            text-align: center
 //Pie de pagina
-.pie
+.container-map
+    background: #000
+    display: flex
     width: 100%
+    padding: 30px
+    margin-top: 40px
+    min-height: 500px
+    max-height: 500px
+.mapa
+    width: 50%
+    background: #034078
+    border-radius: 10px
+    padding: 20px
+    .title-item
+        color: #fff
+        text-align: center
+        font-family: 'Bebas Neue'
+    iframe
+        margin-top: 20px
+        height: 300px
+        width: 100%
+.pie
+    width: 50%
     margin-top: 30px
     padding: 0
+    display: flex
+    align-items: center
     .image-aux
         display: flex
         justify-content: center
@@ -258,9 +301,10 @@ header
             margin: 0
             padding: 0
     .footer-text
+        display: flex
+        flex-direction: column
         background: #000
         margin: 0
-        padding: 20px 10px
         .text-item
             margin: 0 auto
             width: 80%
@@ -317,7 +361,30 @@ header
             flex-direction: column
             align-content: space-between
             justify-content: space-between
-
+//Container Cliente
+#cliente
+    .container-main
+        height: 110vh
+        background: url('../images/cliente-f.jpg')
+        background-position: center
+        position: relative
+        z-index: 3
+        &::after
+            z-index: 4
+            content: ""
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            background: rgba(0, 0, 0, 0.6)
+        .main-item
+            position: relative
+            z-index: 5
+            margin-top: 200px
+            h2
+                font-family: 'Bebas Neue'
+                font-size: 80px
 
 
 
