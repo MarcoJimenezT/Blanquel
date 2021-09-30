@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
 //COlORES
 body
+    overflow-x: hidden
     &::-webkit-scrollbar
         width: 7px
     &::-webkit-scrollbar-track
@@ -32,6 +33,9 @@ header
         justify-content: space-between
         align-content: center
         padding: 0 40px 9
+        .logotiposkew
+            position: absolute
+            left: -700px
         .skew
             transform: skew(25deg)
             width: 420px; 
@@ -53,12 +57,14 @@ header
         .nav_menu
             position: absolute
             z-index: 10
-            right: 0
+            right: -2000px
             background: #fff
             color: #000
             width: 100%
+            height: 10px
             margin-top: 20px
             .nav_items
+                opacity: 0
                 display: flex
                 justify-content: end
                 list-style: none
@@ -103,7 +109,8 @@ header
             text-align: center
             .titulo-header
                 font-family: 'Bebas Neue'
-                margin-top: 50px    
+                margin-top: 20px
+                opacity: 0    
                 color: #fff
                 font-weight: 400
                 font-size: 50px
@@ -331,7 +338,7 @@ header
 .charlemos
     position: fixed
     bottom: 20px
-    right: 20px
+    right: -50px
     a
         text-decoration: none
         color: #fff
