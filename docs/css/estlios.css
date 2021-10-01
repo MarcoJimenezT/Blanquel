@@ -15,7 +15,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #192bc2;
+  background-color: #0496ff;
 }
 
 body .han {
@@ -23,7 +23,7 @@ body .han {
 }
 
 body .peace {
-  background: #192bc2;
+  background: #0496ff;
 }
 
 body .blanco {
@@ -264,6 +264,10 @@ header .style-header .contenedor .icono {
   font-family: 'Bebas Neue';
 }
 
+.container-main .container-item .main-item .tittle-item-special2 {
+  font-size: 40px;
+}
+
 .container-main .container-item .main-item .subtitle-item {
   font-size: 25px;
 }
@@ -321,17 +325,17 @@ header .style-header .contenedor .icono {
 }
 
 .container-main .container-item .main-item .contenedor-comb img {
-  width: 220px;
+  width: 250px;
   margin: auto;
 }
 
 .container-main .container-item .main-item .contenedor-comb .list-items {
-  margin-top: 35px;
+  margin-top: 45px;
   line-height: 30px;
   list-style: none;
   text-align: left;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .container-covid {
