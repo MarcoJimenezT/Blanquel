@@ -15,7 +15,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #5d46e2;
+  background-color: #192bc2;
 }
 
 body .han {
@@ -23,7 +23,7 @@ body .han {
 }
 
 body .peace {
-  background: #5d46e2;
+  background: #192bc2;
 }
 
 body .blanco {
@@ -307,6 +307,10 @@ header .style-header .contenedor .icono {
   border-radius: 8px;
 }
 
+.container-main .container-item .main-item .item-text {
+  font-size: 19px;
+}
+
 .container-main .container-item .main-item .contenedor-comb {
   font-family: 'Roboto', sans-serif;
   display: -webkit-box;
@@ -327,6 +331,7 @@ header .style-header .contenedor .icono {
   list-style: none;
   text-align: left;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .container-covid {
@@ -404,6 +409,7 @@ header .style-header .contenedor .icono {
 
 .about-us .about-text {
   text-align: center;
+  font-size: 19px;
 }
 
 .video-about-us {
@@ -422,16 +428,43 @@ header .style-header .contenedor .icono {
   display: flex;
 }
 
-.content-about-us .card {
-  background: #f2f2f2;
-  color: #000;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.content-about-us .card:hover {
+.content-about-us .esp-font {
   background: #0072BB;
   color: #fff;
+}
+
+.content-about-us .esp-font:hover {
+  background: #f2f2f2;
+  color: #000;
+}
+
+.content-about-us .esp-font2 {
+  background: #f2f2f2;
+  color: #000;
+}
+
+.content-about-us .esp-font2:hover {
+  background: #0072BB;
+  color: #fff;
+}
+
+.content-about-us .card {
+  -webkit-transition: .5s;
+  transition: .5s;
+  max-width: 250px;
+  min-width: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-about-us .card .esp {
+  margin-top: 32px;
+}
+
+.content-about-us .card .card-body {
+  max-height: 300px;
+  min-height: 300px;
 }
 
 .content-about-us .card .card-info {

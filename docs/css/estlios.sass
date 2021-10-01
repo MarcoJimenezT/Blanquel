@@ -10,11 +10,11 @@ body
         background-color: #000
     &::-webkit-scrollbar-thumb
             border-radius: 5px
-            background-color: #5d46e2
+            background-color: #192bc2
     .han
         background: #2D93AD
     .peace
-        background: #5d46e2
+        background: #192bc2
     .blanco
         background: #f2f2f2
     .t-blanco
@@ -184,6 +184,8 @@ header
                     color: #fff
                     font-size: 300
                     border-radius: 8px
+            .item-text
+                font-size: 19px
             .contenedor-comb // ACUERDO DE SATISFACCION CLIENTE
                 font-family: 'Roboto', sans-serif;
                 display: flex
@@ -198,6 +200,7 @@ header
                     list-style: none
                     text-align: left
                     font-weight: 500
+                    font-size: 20px
 //COVID-19
 .container-covid
     background: url('../images/covid-19.jpg')
@@ -254,19 +257,36 @@ header
         text-align: center
     .about-text
         text-align: center
+        font-size: 19px
 .video-about-us
     margin: 0 auto
     display: flex
     justify-content: center
 .content-about-us
     display: flex
-    .card
+    .esp-font
+        background: #0072BB
+        color: #fff
+        &:hover
+            background: #f2f2f2
+            color: #000
+    .esp-font2
         background: #f2f2f2
         color: #000
-        transition: .5s
         &:hover
             background: #0072BB
-            color: #fff
+            color: #fff  
+    .card
+        transition: .5s
+        max-width: 250px
+        min-width: 250px
+        justify-content: center
+        .esp
+            margin-top: 32px
+        
+        .card-body
+            max-height: 300px
+            min-height: 300px
         .card-info
             list-style: none
             margin: 0
