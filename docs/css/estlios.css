@@ -710,9 +710,6 @@ header .style-header .contenedor .icono {
   header .menu {
     display: none;
   }
-  header .style-header {
-    background-size: cover;
-  }
   .container-main {
     display: -webkit-box;
     display: -ms-flexbox;
