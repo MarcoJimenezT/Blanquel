@@ -369,7 +369,7 @@ header .style-header .contenedor .icono {
 }
 
 .container-covid .covid-content .covid-tittle {
-  padding: 55px 0 0 0;
+  padding: 75px 0 0 0;
   color: #fff;
   text-align: center;
   font-family: 'Bebas Neue';
@@ -688,6 +688,21 @@ header .style-header .contenedor .icono {
   display: block;
 }
 
+.offcanvas-header {
+  background-color: #0496ff;
+  border: 0;
+}
+
+.offcanvas-body {
+  border: 0;
+  background-color: #0496ff;
+}
+
+.offcanvas-body .nav-item .nav-link {
+  font-size: 30px;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 600px) {
   header .navbar {
     display: block;
@@ -850,11 +865,14 @@ header .style-header .contenedor .icono {
   .container-covid {
     height: 100%;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
   }
   .container-covid .covid-content {
     height: 100%;
   }
   .container-covid .covid-tittle {
+    padding-top: 20px;
     color: #fff;
     text-align: center;
     font-family: 'Bebas Neue';
