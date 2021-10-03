@@ -369,7 +369,7 @@ header .style-header .contenedor .icono {
 }
 
 .container-covid .covid-content .covid-tittle {
-  padding: 50px 0 0 0;
+  padding: 55px 0 0 0;
   color: #fff;
   text-align: center;
   font-family: 'Bebas Neue';
@@ -688,7 +688,7 @@ header .style-header .contenedor .icono {
   display: block;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   header .navbar {
     display: block;
   }
@@ -816,46 +816,44 @@ header .style-header .contenedor .icono {
   #cliente .container-main {
     height: 100%;
   }
-  #cliente .main-item {
+  #cliente .container-main .main-item {
     position: relative;
     z-index: 5;
-    margin-top: 200px;
+    margin-top: 80px;
   }
-  #cliente .main-item .t-blanco h2 {
+  #cliente .container-main .main-item .t-blanco h2 {
     font-family: 'Bebas Neue';
     font-size: 30px;
   }
-  #cliente .main-item .t-blanco .item-text {
+  #cliente .container-main .main-item .t-blanco .item-text {
     font-size: 15px;
   }
-  #cliente .main-item .t-blanco .contenedor-comb {
+  #cliente .container-main .main-item .t-blanco .contenedor-comb {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #cliente .main-item .t-blanco .contenedor-comb .list-items {
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items {
     font-size: 13px;
     line-height: 30px;
     text-align: center;
     margin: 0;
     padding: 0;
   }
-  #cliente .main-item .t-blanco .contenedor-comb .list-items i {
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items i {
     text-align: center;
   }
-  #cliente .main-item .t-blanco .contenedor-comb img {
+  #cliente .container-main .main-item .t-blanco .contenedor-comb img {
     width: 200px;
   }
   .container-covid {
     height: 100%;
-    padding-bottom: 30px;
   }
   .container-covid .covid-content {
     height: 100%;
   }
   .container-covid .covid-tittle {
-    padding: 50px 0 0 0;
     color: #fff;
     text-align: center;
     font-family: 'Bebas Neue';
