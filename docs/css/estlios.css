@@ -851,6 +851,9 @@ header .style-header .contenedor .icono {
     height: 100%;
     padding-bottom: 30px;
   }
+  .container-covid .covid-content {
+    height: 100%;
+  }
   .container-covid .covid-tittle {
     padding: 50px 0 0 0;
     color: #fff;
