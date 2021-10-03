@@ -711,9 +711,8 @@ header .style-header .contenedor .icono {
     display: none;
   }
   header .style-header {
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
   }
   .container-main {
     display: -webkit-box;
