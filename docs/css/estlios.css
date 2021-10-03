@@ -810,6 +810,40 @@ header .style-header .contenedor .icono {
   .container-main .container-item .main-item .item-text {
     font-size: 19px;
   }
+  #cliente .container-main {
+    height: 100%;
+  }
+  #cliente .main-item {
+    position: relative;
+    z-index: 5;
+    margin-top: 200px;
+  }
+  #cliente .main-item .t-blanco h2 {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+  }
+  #cliente .main-item .t-blanco .item-text {
+    font-size: 15px;
+  }
+  #cliente .main-item .t-blanco .contenedor-comb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #cliente .main-item .t-blanco .contenedor-comb .list-items {
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #cliente .main-item .t-blanco .contenedor-comb .list-items i {
+    text-align: center;
+  }
+  #cliente .main-item .t-blanco .contenedor-comb img {
+    width: 200px;
+  }
   .carrousel-tarjetas-resp {
     display: block;
   }
