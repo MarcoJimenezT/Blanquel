@@ -672,4 +672,210 @@ header .style-header .contenedor .icono {
   font-family: 'Bebas Neue';
   font-size: 80px;
 }
+
+.carrousel-tarjetas-resp {
+  display: none;
+}
+
+.carrousel-tarjeta {
+  display: block;
+}
+
+@media only screen and (max-width: 415px) {
+  .container-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-main .container-item {
+    width: 100%;
+  }
+  .container-main .container-item .main-item {
+    margin: 20px auto 0;
+    padding-bottom: 40px;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-main .container-item .main-item .ortodoncia {
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container-main .container-item .main-item .invisaling {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container-main .container-item .main-item .tittle-item-special {
+    font-size: 195px;
+    width: 250px;
+    line-height: 200px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .container-main .container-item .main-item .tittle-item-special-blank {
+    width: 300px;
+    font-size: 192px;
+  }
+  .container-main .container-item .main-item .title-item, .container-main .container-item .main-item .subtitle-item, .container-main .container-item .main-item .text-t-item {
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Bebas Neue';
+  }
+  .container-main .container-item .main-item .tittle-item-special2 {
+    font-size: 40px;
+  }
+  .container-main .container-item .main-item .subtitle-item {
+    font-size: 25px;
+  }
+  .container-main .container-item .main-item .text-t-item {
+    font-size: 20px;
+  }
+  .container-main .container-item .main-item .text-item {
+    text-align: justify;
+  }
+  .container-main .container-item .main-item .boton {
+    margin-top: 20px;
+  }
+  .container-main .container-item .main-item .imagen-aux {
+    margin: 0;
+  }
+  .container-main .container-item .main-item .imagen-aux img {
+    width: 300px;
+  }
+  .container-main .container-item .main-item .nav-blank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .container-main .container-item .main-item .nav-blank .nav-blank-item {
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 300;
+    border-radius: 8px;
+  }
+  .container-main .container-item .main-item .item-text {
+    font-size: 19px;
+  }
+  .carrousel-tarjetas-resp {
+    display: block;
+  }
+  .carrousel-tarjeta {
+    display: none;
+  }
+  .container-map {
+    background: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    padding: 30px;
+    margin-top: 40px;
+    min-height: 720px;
+    max-height: 720px;
+  }
+  .mapa {
+    width: 100%;
+    background: #034078;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .mapa .title-item {
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas Neue';
+  }
+  .mapa iframe {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+  }
+  .pie {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pie .image-aux {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pie .image-aux img {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  .pie .footer-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #000;
+    margin: 0;
+  }
+  .pie .footer-text .text-item {
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+  }
+}
 /*# sourceMappingURL=estlios.css.map */
