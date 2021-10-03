@@ -712,6 +712,9 @@ header .style-header .contenedor .icono {
   header .menu {
     display: none;
   }
+  header .style-header {
+    background: url("../images/portada2.jpg");
+  }
   .container-main {
     display: -webkit-box;
     display: -ms-flexbox;
