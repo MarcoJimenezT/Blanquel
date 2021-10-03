@@ -838,7 +838,7 @@ header .style-header .contenedor .icono {
   }
   #cliente .container-main .main-item .t-blanco h2 {
     font-family: 'Bebas Neue';
-    font-size: 30px;
+    font-size: 50px;
   }
   #cliente .container-main .main-item .t-blanco .item-text {
     font-size: 15px;
@@ -871,12 +871,12 @@ header .style-header .contenedor .icono {
   .container-covid .covid-content {
     height: 100%;
   }
-  .container-covid .covid-tittle {
-    padding-top: 20px;
+  .container-covid .covid-content .covid-tittle {
+    padding-top: 30px;
     color: #fff;
     text-align: center;
     font-family: 'Bebas Neue';
-    font-size: 30px;
+    font-size: 50px;
   }
   .container-covid .covid-text {
     font-size: 20px;
@@ -918,7 +918,7 @@ header .style-header .contenedor .icono {
     padding: 0;
     margin: 0;
     font-family: 'Bebas Neue';
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
   }
   .about-us .about-text {
