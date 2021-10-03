@@ -409,7 +409,7 @@ header .style-header .contenedor .icono {
 }
 
 .about-us .about-tittle {
-  padding-top: 30px;
+  padding-top: 40px;
   font-family: 'Bebas Neue';
   font-size: 80px;
   text-align: center;
@@ -434,6 +434,9 @@ header .style-header .contenedor .icono {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .content-about-us .esp-font {
@@ -882,6 +885,87 @@ header .style-header .contenedor .icono {
     line-height: 40px;
   }
   .container-covid .covid-text-s ul li {
+    text-align: center;
+  }
+  .about-us {
+    color: #fff;
+    margin: 0 auto;
+  }
+  .about-us .about-tittle {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-us .about-text {
+    text-align: center;
+    font-size: 19px;
+  }
+  .video-about-us {
+    margin: 60px auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .video-about-us video {
+    width: 90%;
+  }
+  .content-about-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-about-us .esp-font {
+    background: #0072BB;
+    color: #fff;
+  }
+  .content-about-us .esp-font:hover {
+    background: #f2f2f2;
+    color: #000;
+  }
+  .content-about-us .esp-font2 {
+    background: #f2f2f2;
+    color: #000;
+  }
+  .content-about-us .esp-font2:hover {
+    background: #0072BB;
+    color: #fff;
+  }
+  .content-about-us .card {
+    -webkit-transition: .5s;
+    transition: .5s;
+    max-width: 80%;
+    min-width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .content-about-us .card .esp {
+    margin-top: 32px;
+  }
+  .content-about-us .card .card-body {
+    max-height: 300px;
+    min-height: 300px;
+  }
+  .content-about-us .card .card-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
   .carrousel-tarjetas-resp {
