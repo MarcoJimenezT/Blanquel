@@ -369,7 +369,7 @@ header .style-header .contenedor .icono {
 }
 
 .container-covid .covid-content .covid-tittle {
-  padding: 75px 0 0 0;
+  padding: 135px 0 0 0;
   color: #fff;
   text-align: center;
   font-family: 'Bebas Neue';
@@ -906,6 +906,9 @@ header .style-header .contenedor .icono {
   }
   .container-covid .covid-text-s ul li {
     text-align: center;
+  }
+  .container-covid .covid-text-s ul li .d-logo {
+    display: block;
   }
   .about-us {
     color: #fff;
