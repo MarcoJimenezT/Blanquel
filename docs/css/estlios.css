@@ -849,6 +849,7 @@ header .style-header .contenedor .icono {
   }
   .container-covid {
     height: 100%;
+    background-repeat: no-repeat;
   }
   .container-covid .covid-content {
     height: 100%;
