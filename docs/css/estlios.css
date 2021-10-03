@@ -46,6 +46,10 @@ body .gris {
   background: #252525;
 }
 
+header .navbar {
+  display: none;
+}
+
 header .menu {
   margin: 0;
   display: -webkit-box;
@@ -682,6 +686,12 @@ header .style-header .contenedor .icono {
 }
 
 @media only screen and (max-width: 500px) {
+  header .navbar {
+    display: block;
+  }
+  header .menu {
+    display: none;
+  }
   .container-main {
     display: -webkit-box;
     display: -ms-flexbox;

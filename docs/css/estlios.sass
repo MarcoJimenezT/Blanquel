@@ -27,6 +27,8 @@ body
         background: #252525
         // font-family: 'Roboto', sans-serif
 header
+    .navbar
+        display: none
     .menu
         margin: 0
         display: flex
@@ -421,6 +423,11 @@ header
 .carrousel-tarjeta
     display: block
 @media only screen and (max-width: 500px)
+    header
+        .navbar
+            display: block
+        .menu
+            display: none
     .container-main
         display: flex
         flex-wrap: wrap
