@@ -844,6 +844,46 @@ header .style-header .contenedor .icono {
   #cliente .main-item .t-blanco .contenedor-comb img {
     width: 200px;
   }
+  .container-covid {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .container-covid .covid-tittle {
+    padding: 50px 0 0 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+  }
+  .container-covid .covid-text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+  }
+  .container-covid .covid-text-s {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+  }
+  .container-covid .covid-text-s .image-aux img {
+    width: 250px;
+  }
+  .container-covid .covid-text-s ul {
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 40px;
+  }
+  .container-covid .covid-text-s ul li {
+    text-align: center;
+  }
   .carrousel-tarjetas-resp {
     display: block;
   }
