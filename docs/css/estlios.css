@@ -706,8 +706,15 @@ header .style-header .contenedor .icono {
 }
 
 @media only screen and (max-width: 1200px) {
+  header .style-header {
+    max-height: 100vh;
+    min-height: 100vh;
+  }
+  header .style-header .contenedor {
+    padding-top: 50px;
+  }
   header .style-header .contenedor .titulo-header {
-    margin-top: 0;
+    font-size: 30px;
   }
   header .menu .logotiposkew .skew {
     width: 210px;
