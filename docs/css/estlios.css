@@ -611,16 +611,16 @@ header .style-header .contenedor .icono {
   color: #fff;
 }
 
-#carrousel-tarjetas {
+#carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3 {
   position: relative;
 }
 
-#carrousel-tarjetas .container-carro {
+#carrousel-tarjetas .container-carro, #carrousel-tarjetas-respon .container-carro, #carrousel-tarjetas3 .container-carro {
   max-width: 80%;
   min-width: 80%;
 }
 
-#carrousel-tarjetas .card {
+#carrousel-tarjetas .card, #carrousel-tarjetas-respon .card, #carrousel-tarjetas3 .card {
   -webkit-transition: .6s;
   transition: .6s;
   margin: 5px 10px;
@@ -628,16 +628,16 @@ header .style-header .contenedor .icono {
   max-height: 300px;
 }
 
-#carrousel-tarjetas .card:hover {
+#carrousel-tarjetas .card:hover, #carrousel-tarjetas-respon .card:hover, #carrousel-tarjetas3 .card:hover {
   background: #000;
 }
 
-#carrousel-tarjetas .card .icono {
+#carrousel-tarjetas .card .icono, #carrousel-tarjetas-respon .card .icono, #carrousel-tarjetas3 .card .icono {
   font-size: 30px;
   padding-top: 5px;
 }
 
-#carrousel-tarjetas .card .card-body {
+#carrousel-tarjetas .card .card-body, #carrousel-tarjetas-respon .card .card-body, #carrousel-tarjetas3 .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,7 +705,78 @@ header .style-header .contenedor .icono {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1200px) {
+  header .menu .logotiposkew .skew {
+    width: 210px;
+    height: 120px;
+  }
+  header .menu .logotiposkew .logo img {
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+  header .menu .nav_menu .nav_items {
+    margin-top: 8px;
+  }
+  header .menu .nav_menu .nav_items .nav_item {
+    font-size: 20px;
+  }
+  .container-main .container-item .main-item {
+    width: 70%;
+  }
+  .container-main .container-item .main-item .invisaling {
+    margin: 50px auto;
+    padding: 10px;
+  }
+  .container-main .container-item .main-item .tittle-item-special {
+    font-size: 185px;
+    width: 240px;
+    line-height: 200px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .container-main .container-item .main-item .tittle-item-special-blank {
+    width: 285px;
+    font-size: 182px;
+  }
+  .container-main .container-item .main-item .imagen-aux img {
+    width: 400px;
+  }
+  .container-main .container-item .main-item .nav-blank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .container-main .container-item .main-item .nav-blank .nav-blank-item {
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 300;
+    border-radius: 8px;
+  }
+  .container-main .container-item .main-item .item-text {
+    font-size: 19px;
+  }
+  .carrousel-tarjetas-resp2 {
+    display: block;
+  }
+  .carrousel-tarjetas-resp {
+    display: none;
+  }
+  .carrousel-tarjeta {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   header .navbar {
     display: block;
   }
@@ -861,7 +932,16 @@ header .style-header .contenedor .icono {
     margin: 0;
     padding: 0;
   }
-  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items i {
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items li i {
     text-align: center;
   }
   #cliente .container-main .main-item .t-blanco .contenedor-comb img {
@@ -1002,6 +1082,9 @@ header .style-header .contenedor .icono {
   }
   .carrousel-tarjetas-resp {
     display: block;
+  }
+  .carrousel-tarjetas-resp2 {
+    display: none;
   }
   .carrousel-tarjeta {
     display: none;

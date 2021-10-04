@@ -375,7 +375,7 @@ header
         &:hover
             color: #fff
 //CAROUSEL
-#carrousel-tarjetas
+#carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3
     position: relative
     .container-carro
        max-width: 80%
@@ -435,8 +435,72 @@ header
         .nav-link
             font-size: 30px
             color: #ffffff
-
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 1200px)
+    header
+        .menu
+            .logotiposkew
+                .skew
+                    width: 210px; 
+                    height: 120px;
+                .logo
+                    img
+                        width: 150px
+                        margin-top: 35px
+                        margin-left: 10px 
+            .nav_menu
+                .nav_items
+                    margin-top: 8px
+                    .nav_item
+                        font-size: 20px
+    .container-main
+        .container-item
+            .main-item
+                width: 70%
+                .ortodoncia
+                .invisaling // Seccion de invisaling
+                    margin: 50px auto
+                    padding: 10px
+                .tittle-item-special
+                    font-size: 185px
+                    width: 240px
+                    line-height: 200px
+                    word-wrap: break-word
+                    text-align: center
+                .tittle-item-special-blank
+                    width: 285px
+                    font-size: 182px
+                .title-item, .subtitle-item, .text-t-item
+                .tittle-item-special2
+                .subtitle-item
+                .text-t-item
+                .text-item
+                .boton
+                .imagen-aux
+                    img
+                        width: 400px
+                .nav-blank //SECCION DE BLANQUEAMIENTO
+                    display: flex
+                    flex-direction: column
+                    margin: 0 auto
+                    padding: 0
+                    .nav-blank-item
+                        margin: 10px
+                        text-align: center
+                        list-style: none
+                        padding: 10px 20px 
+                        color: #fff
+                        font-size: 300
+                        border-radius: 8px
+                .item-text
+                    font-size: 19px
+    .carrousel-tarjetas-resp2
+        display: block
+    .carrousel-tarjetas-resp
+        display: none
+    .carrousel-tarjeta
+        display: none
+    
+@media only screen and (max-width: 700px)
     header
         .navbar
             display: block
@@ -534,8 +598,11 @@ header
                             text-align: center
                             margin: 0
                             padding: 0
-                            i
-                                text-align: center
+                            li
+                                display: flex
+                                flex-direction: column
+                                i
+                                    text-align: center
                         img
                             width: 200px
     //COVID
@@ -631,6 +698,8 @@ header
     //CAROUSELL
     .carrousel-tarjetas-resp
         display: block
+    .carrousel-tarjetas-resp2
+        display: none
     .carrousel-tarjeta
         display: none
     //Pie de pagina
