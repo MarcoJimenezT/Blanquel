@@ -619,16 +619,17 @@ header .style-header .contenedor .icono {
 }
 
 #carrousel-tarjetas .container-carro, #carrousel-tarjetas-respon .container-carro, #carrousel-tarjetas3 .container-carro {
-  max-width: 80%;
-  min-width: 80%;
+  max-width: 90%;
+  min-width: 90%;
 }
 
 #carrousel-tarjetas .card, #carrousel-tarjetas-respon .card, #carrousel-tarjetas3 .card {
   -webkit-transition: .6s;
   transition: .6s;
   margin: 5px 10px;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 350px;
+  max-height: 350px;
+  width: 25%;
 }
 
 #carrousel-tarjetas .card:hover, #carrousel-tarjetas-respon .card:hover, #carrousel-tarjetas3 .card:hover {
@@ -685,6 +686,10 @@ header .style-header .contenedor .icono {
   font-size: 80px;
 }
 
+.carrousel-tarjetas-resp2 {
+  display: none;
+}
+
 .carrousel-tarjetas-resp {
   display: none;
 }
@@ -709,6 +714,21 @@ header .style-header .contenedor .icono {
 }
 
 @media only screen and (max-width: 1200px) {
+  #carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3 {
+    position: relative;
+  }
+  #carrousel-tarjetas .container-carro, #carrousel-tarjetas-respon .container-carro, #carrousel-tarjetas3 .container-carro {
+    max-width: 90%;
+    min-width: 90%;
+  }
+  #carrousel-tarjetas .card, #carrousel-tarjetas-respon .card, #carrousel-tarjetas3 .card {
+    -webkit-transition: .6s;
+    transition: .6s;
+    margin: 5px 10px;
+    min-height: 350px;
+    max-height: 350px;
+    width: 50%;
+  }
   header .style-header {
     max-height: 100vh;
     min-height: 100vh;
@@ -979,6 +999,21 @@ header .style-header .contenedor .icono {
 }
 
 @media only screen and (max-width: 700px) {
+  #carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3 {
+    position: relative;
+  }
+  #carrousel-tarjetas .container-carro, #carrousel-tarjetas-respon .container-carro, #carrousel-tarjetas3 .container-carro {
+    max-width: 90%;
+    min-width: 90%;
+  }
+  #carrousel-tarjetas .card, #carrousel-tarjetas-respon .card, #carrousel-tarjetas3 .card {
+    -webkit-transition: .6s;
+    transition: .6s;
+    margin: 5px 10px;
+    min-height: 350px;
+    max-height: 350px;
+    width: 90%;
+  }
   header .navbar {
     display: block;
   }

@@ -381,13 +381,14 @@ header
 #carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3
     position: relative
     .container-carro
-       max-width: 80%
-       min-width: 80%
+       max-width: 90%
+       min-width: 90%
     .card
         transition: .6s
         margin: 5px 10px
-        min-height: 300px
-        max-height: 300px        
+        min-height: 350px
+        max-height: 350px    
+        width: 25%    
         &:hover
             background: #000
         .icono
@@ -424,6 +425,8 @@ header
                 font-size: 80px
 //MEDIA QUERIES------------------------------------------------------------
 //CAROUSEL
+.carrousel-tarjetas-resp2
+    display: none
 .carrousel-tarjetas-resp
     display: none
 .carrousel-tarjeta
@@ -439,6 +442,17 @@ header
             font-size: 30px
             color: #ffffff
 @media only screen and (max-width: 1200px)
+    #carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3
+        position: relative
+        .container-carro
+            max-width: 90%
+            min-width: 90%
+        .card
+            transition: .6s
+            margin: 5px 10px
+            min-height: 350px
+            max-height: 350px    
+            width: 50%
     header
         .style-header
             max-height: 100vh
@@ -638,6 +652,17 @@ header
                 text-align: center
     
 @media only screen and (max-width: 700px)
+    #carrousel-tarjetas, #carrousel-tarjetas-respon, #carrousel-tarjetas3
+        position: relative
+        .container-carro
+            max-width: 90%
+            min-width: 90%
+        .card
+            transition: .6s
+            margin: 5px 10px
+            min-height: 350px
+            max-height: 350px    
+            width: 90%
     header
         .navbar
             display: block
