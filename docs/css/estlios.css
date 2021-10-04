@@ -726,11 +726,12 @@ header .style-header .contenedor .icono {
     margin-left: 10px;
   }
   header .menu .nav_menu .nav_items {
-    margin-top: 8px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
     padding: 0;
+    margin: 0;
+    margin-top: 8px;
   }
   header .menu .nav_menu .nav_items .nav_item {
     font-size: 20px;
@@ -787,6 +788,184 @@ header .style-header .contenedor .icono {
   }
   .carrousel-tarjeta {
     display: none;
+  }
+  #cliente .container-main {
+    height: 100%;
+  }
+  #cliente .container-main .main-item {
+    position: relative;
+    z-index: 5;
+    margin-top: 80px;
+  }
+  #cliente .container-main .main-item .t-blanco h2 {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  #cliente .container-main .main-item .t-blanco .item-text {
+    font-size: 15px;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items {
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb .list-items li i {
+    text-align: center;
+  }
+  #cliente .container-main .main-item .t-blanco .contenedor-comb img {
+    width: 200px;
+  }
+  .container-covid {
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  .container-covid .covid-content {
+    height: 80%;
+    padding-bottom: 20px;
+  }
+  .container-covid .covid-content .covid-tittle {
+    padding-top: 40px;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+  }
+  .container-covid .covid-text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+  }
+  .container-covid .covid-text-s {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+  }
+  .container-covid .covid-text-s .image-aux img {
+    width: 250px;
+  }
+  .container-covid .covid-text-s ul {
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 40px;
+  }
+  .container-covid .covid-text-s ul li {
+    text-align: center;
+  }
+  .container-covid .covid-text-s ul li .d-logo {
+    display: block;
+  }
+  .nosotros {
+    background: #000;
+  }
+  .about-us {
+    color: #000;
+    margin: 0 auto;
+  }
+  .about-us .about-tittle {
+    padding: 0;
+    margin-top: 30px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-us .about-text {
+    text-align: center;
+    font-size: 19px;
+  }
+  .video-about-us {
+    margin: 60px auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .video-about-us video {
+    width: 90%;
+  }
+  .content-about-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-about-us .esp-font {
+    background: #0072BB;
+    color: #fff;
+  }
+  .content-about-us .esp-font:hover {
+    background: #f2f2f2;
+    color: #000;
+  }
+  .content-about-us .esp-font2 {
+    background: #f2f2f2;
+    color: #000;
+  }
+  .content-about-us .esp-font2:hover {
+    background: #0072BB;
+    color: #fff;
+  }
+  .content-about-us .card {
+    -webkit-transition: .5s;
+    transition: .5s;
+    max-width: 400px;
+    min-width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .content-about-us .card .esp {
+    margin-top: 32px;
+  }
+  .content-about-us .card .card-body {
+    max-height: 300px;
+    min-height: 300px;
+  }
+  .content-about-us .card .card-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
 }
 

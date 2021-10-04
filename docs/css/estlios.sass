@@ -456,9 +456,10 @@ header
                         margin-left: 10px 
             .nav_menu
                 .nav_items
-                    margin-top: 8px
                     justify-content: end
                     padding: 0
+                    margin: 0
+                    margin-top: 8px
                     .nav_item
                         font-size: 20px
     .container-main
@@ -508,6 +509,126 @@ header
         display: none
     .carrousel-tarjeta
         display: none
+    #cliente
+        .container-main
+            height: 100%
+            .main-item
+                position: relative
+                z-index: 5
+                margin-top: 80px
+                .t-blanco
+                    h2
+                        font-family: 'Bebas Neue'
+                        font-size: 30px
+                        margin-top: 40px
+                    .item-text
+                        font-size: 15px
+                    .contenedor-comb
+                        flex-direction: column
+                        .list-items
+                            font-size: 13px
+                            line-height: 30px
+                            text-align: center
+                            margin: 0
+                            padding: 0
+                            li
+                                display: flex
+                                flex-direction: column
+                                i
+                                    text-align: center
+                        img
+                            width: 200px
+    //COVID
+    .container-covid
+        height: 100%
+        background-repeat: no-repeat
+        margin: 0
+        padding: 0
+        .covid-content
+            height: 80%
+            padding-bottom: 20px
+            .covid-tittle
+                padding-top: 40px
+                margin-top: 30px
+                color: #fff
+                text-align: center
+                font-family: 'Bebas Neue'
+                font-size: 30px
+        .covid-text
+            font-size: 20px
+            color: #fff
+            text-align: center
+            font-weight: 500
+        .covid-text-s
+            display: flex
+            flex-direction: column
+            margin-top: 50px
+            .image-aux
+                img
+                    width: 250px
+            ul
+                padding: 0
+                list-style: none
+                font-weight: 400
+                text-align: justify
+                line-height: 40px
+                li
+                    text-align: center
+                    .d-logo
+                        display: block
+    .nosotros
+        background:#000
+    .about-us
+        color: #000
+        margin: 0 auto
+        .about-tittle
+            padding: 0
+            margin-top: 30px
+            font-family: 'Bebas Neue'
+            font-size: 30px
+            text-align: center
+        .about-text
+            text-align: center
+            font-size: 19px
+    .video-about-us
+        margin: 60px auto
+        width: 90%
+        display: flex
+        justify-content: center
+        video
+            width: 90%
+    .content-about-us
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .esp-font
+            background: #0072BB
+            color: #fff
+            &:hover
+                background: #f2f2f2
+                color: #000
+        .esp-font2
+            background: #f2f2f2
+            color: #000
+            &:hover
+                background: #0072BB
+                color: #fff  
+        .card
+            transition: .5s
+            max-width: 400px
+            min-width: 400px
+            justify-content: center
+            .esp
+                margin-top: 32px        
+            .card-body
+                max-height: 300px
+                min-height: 300px
+            .card-info
+                list-style: none
+                margin: 0
+                padding: 0
+                text-align: center
     
 @media only screen and (max-width: 700px)
     header
