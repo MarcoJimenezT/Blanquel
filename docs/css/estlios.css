@@ -720,6 +720,10 @@ header .style-header .contenedor .icono {
   }
   header .menu .nav_menu .nav_items {
     margin-top: 8px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    padding: 0;
   }
   header .menu .nav_menu .nav_items .nav_item {
     font-size: 20px;
