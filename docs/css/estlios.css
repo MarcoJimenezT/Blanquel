@@ -103,6 +103,9 @@ header .menu .nav_menu {
 }
 
 header .menu .nav_menu .nav_items {
+  position: absolute;
+  top: 0;
+  right: 0 !important;
   opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,8 +729,8 @@ header .style-header .contenedor .icono {
     margin-left: 10px;
   }
   header .menu .nav_menu .nav_items {
-    position: relative;
-    right: 0;
+    position: absolute;
+    right: 0 !important;
     top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
