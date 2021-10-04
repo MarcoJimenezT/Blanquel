@@ -706,6 +706,9 @@ header .style-header .contenedor .icono {
 }
 
 @media only screen and (max-width: 1200px) {
+  header .style-header .contenedor .titulo-header {
+    margin-top: 0;
+  }
   header .menu .logotiposkew .skew {
     width: 210px;
     height: 120px;
