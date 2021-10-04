@@ -727,6 +727,8 @@ header .style-header .contenedor .icono {
   }
   header .menu .nav_menu .nav_items {
     position: relative;
+    right: 0;
+    top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
